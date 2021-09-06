@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 ![Image text](Logo_EMQ.png)
 # Construyendo el clúster de EMQ desde cero
 ![Image text](Logo_Kube.png)
+=======
+![Image text](/images/Logo_EMQ.png)
+# Construyendo el clúster de EMQ desde cero
+![Image text](/images/Logo_Kube.png)
+>>>>>>> main
 
 # Tabla de Contenidos
 - [Construyendo el clúster de EMQ desde cero](#construyendo-el-clúster-de-emq-desde-cero)
@@ -181,4 +187,8 @@ data:
   EMQX_CLUSTER__K8S__SUFFIX: "svc.cluster.local"
 ```
 
+<<<<<<< HEAD
 ConfigMap no proporciona cifrado. Si los datos que desea almacenar son confidenciales, use un ***secret*** en lugar de un ConfigMap, o use herramientas de terceros para mantener la privacidad de sus datos.
+=======
+ConfigMap no proporciona cifrado. Si los datos que desea almacenar son confidenciales, use un ***secret*** en lugar de un ConfigMap, o use herramientas de terceros para mantener la privacidad de sus datos.
+>>>>>>> main
